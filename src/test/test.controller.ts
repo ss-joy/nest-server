@@ -4,7 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class TestController {
   @Get()
   sayOk() {
-    // return 'server is working';
-    return '<h1>yo</h1>';
+    return 'server is working';
   }
 }
